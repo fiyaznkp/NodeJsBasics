@@ -1,0 +1,37 @@
+// node js is a open source,cross platform runtime environment that allows to execute js code on the server side.
+//it uses the v8 js engine developed by google
+
+//advantages of node
+
+//1.use js in both server side and client side
+//2.fast execution
+//3.large ecosystem of packages
+//4.close patform
+//.lightweight and efficient 
+
+//two ways to execute js code
+
+//1. node repl
+// repl means read , evaluate, print, loop
+
+//2.executing code in a js file in the command lines
+
+//common js 
+
+// it is a standard  that states how a module is to structured and shared
+
+// module in node means a file 
+
+//require function 
+
+// to load a module in another file we use require function
+
+// local module 
+
+// it is the module created by us
+
+//built in module 
+
+// modules already available in node 
+
+// third party or npm modules
