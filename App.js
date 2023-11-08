@@ -47,3 +47,26 @@
 // server.listen(3000, ()=> {
 //     console.log("server is running on port 3000")
 // })
+
+
+
+// const http = require('http')
+
+// const server = http.createServer((req, res) => {
+//     res.write("hai")
+//     res.end()
+// })
+// server.listen(3000, () => {
+//     console.log("server is running on port 3000")
+// })
+
+// const http = require("http")
+
+// const server = http.createServer((req,res)=>{
+//     res.write("hai all")
+//     res.end()
+// })
+
+// server.listen(5173, ()=>{
+//     console.log("server is running in port 5173")
+// })

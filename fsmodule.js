@@ -27,9 +27,21 @@
 
 // console.log(file)
 
+// const fs = require("fs")
+
+// const file = fs.readFileSync("./file.text","utf-8")
+
+// console.log(file)
+
+// const fs = require("fs")
+
+// const file = fs.readFileSync("./file.text", "utf-8")
+
+// console.log(file)
+
+
 //2 reading file asynchronously
 
-// const { error } = require("console")
 // const fs = require("fs")
 
 // fs.readFile("./file.text", "utf-8" , (error,data)=> {
@@ -41,7 +53,7 @@
 //    }
 // })
 
-// const { error } = require("console")
+
 // const fs = require("fs")
 
 // fs.readFile("./file.text" , "utf-8" , (error,data) => {
@@ -53,14 +65,26 @@
 //     }
 // })
 
+
+// const fs = require("fs")
+
+// fs.readFile("./file.text", "utf-8" , (error,data)=>{
+//     if(error){
+//         console.log(error)
+
+//     }else{
+//         console.log(data)
+//     }
+// })
+
 const { error } = require("console")
 const fs = require("fs")
 
-fs.readFile("./file.text", "utf-8" , (error,data)=>{
-    if(error){
+fs.readFile("./file.text" ,"utf-8" ,(error,data) => {
+    if(error) {
         console.log(error)
-
-    }else{
+    }
+    else{
         console.log(data)
     }
 })
