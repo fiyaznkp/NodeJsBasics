@@ -2,7 +2,9 @@
 
 // it is a c program
 
-// it is a pattern that cordinates the execution of both synchronous and synchronous operations in node js
+// it is a pattern that cordinates the execution of  asynchronous operations in node js
+
+// it helps in non blocking of codes in node js
 
 // there are 6 ques in event loop each que has a call back function , the type of call back functions are different for each of them
 

@@ -1,4 +1,5 @@
 // the primary use of pkdf2 is securely storing the password of users
+//pkdf2 stands for password based key derivation function 2
 
 const crypto = require("crypto")
 
