@@ -38,12 +38,12 @@
 
 // event.emit("mernstack developer","1 year" ,"25")
 
-const events = require("events");
+// const events = require("events");
 
-const event = new events();
+// const event = new events();
 
-event.on("mernstack developer", (experience, age) => {
-  console.log(`I am a MERN stack developer with ${experience} and I am ${age} years old.`);
-});
+// event.on("mernstack developer", (experience, age) => {
+//   console.log(`I am a MERN stack developer with ${experience} and I am ${age} years old.`);
+// });
 
-event.emit("mernstack developer", "1 year experiance", "25");
+// event.emit("mernstack developer", "1 year experiance", "25");

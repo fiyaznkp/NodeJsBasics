@@ -3,6 +3,14 @@
 
 //1 reading file synchronously
 
+
+
+ const fs = require("fs")
+
+ const file = fs.readFileSync("./files1.text","utf-8")
+
+ console.log(file)
+
 // const fs = require("fs")
 
 // const file = fs.readFileSync('./file.text')
@@ -77,14 +85,14 @@
 //     }
 // })
 
-const { error } = require("console")
-const fs = require("fs")
 
-fs.readFile("./file.text" ,"utf-8" ,(error,data) => {
-    if(error) {
-        console.log(error)
-    }
-    else{
-        console.log(data)
-    }
-})
+// const fs = require("fs")
+
+// fs.readFile("./file.text" ,"utf-8" ,(error,data) => {
+//     if(error) {
+//         console.log(error)
+//     }
+//     else{
+//         console.log(data)
+//     }
+// })
