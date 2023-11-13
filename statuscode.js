@@ -9,3 +9,25 @@
 //4.client error when server doesnt understand the request of client 
 
 //5.server error it is used when server is incapable of performing the request
+
+// common status codes
+
+//1.200 okay
+
+//2.201 created
+
+//3.204 no content
+
+//4.301 moved permanently
+
+//5.400 bad request
+
+//6.401 unauthorized
+
+//7.403  forbidden 
+
+//8.404  not found
+
+//9. 500 internal server error
+
+//10.503 service unavailable

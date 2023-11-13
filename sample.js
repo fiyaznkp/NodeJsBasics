@@ -11,6 +11,15 @@
 //     console.log("hai")
 // })
 
+// const http = require("http")
+
+
+// http.createServer((req,res)=>{
+//     res.write("hello")
+//     res.end()
+// })
+// .listen("3000")
+
 //2. how to read a file synchronously
 
 // const fs = require("fs")
@@ -49,6 +58,14 @@
 //     }
 // })
 
+// const fs = require("fs")
+
+// fs.writeFile("./file.text","hii am fiyaz ", (err)=>{
+//     if(err){
+//         console.log(err)
+//     }
+// })
+
 //6.how to update a file without removing the already written text synchronously
 
 // const fs = require("fs")
@@ -69,4 +86,22 @@
 
 //8.how to create an event synchronously
 
-// 
+//9. how to create a append file in asynchronous way
+
+// const fs = require("fs")
+
+// fs.writeFile("./file.text","i am from koduvally",{flag:"a"},(err)=>{
+//     if(err){
+//         console.log(err)
+//     }
+// })
+
+//10. for deleting a file 
+
+// const fs = require("fs")
+
+// fs.unlink("./files1.text",(err)=>{
+//     if(err){
+//         console.log(err)
+//     }
+// })
