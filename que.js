@@ -1,0 +1,1 @@
+/* it is a datastructure which follows fifo(first in first out rule) */

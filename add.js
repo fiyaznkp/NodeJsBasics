@@ -1,5 +1,5 @@
 const a =10
-const b =23
+const b =25
 
 const c = b +a
 

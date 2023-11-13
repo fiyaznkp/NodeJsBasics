@@ -1,12 +1,12 @@
-// const Events = require("events")
+const Events = require("events")
 
-// const event = new Events()
+const event = new Events()
 
-// event.on("cutting",()=> {
-//     console.log("hair cutting is going ")
-// })
+event.on("cutting",()=> {
+    console.log("hair cutting is going ")
+})
 
-// event.emit("cutting")
+event.emit("cutting")
 
 // const events = require('events')
 
