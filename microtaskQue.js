@@ -2,7 +2,7 @@
 /*
 working of event loop 
 
-1.in event loop alsways first priority for microtask ques 
+1.in event loop always first priority for microtask ques 
 
 2.among microstask first priority goes for nexttick que then promise 
 
