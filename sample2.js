@@ -52,3 +52,15 @@
 //     console.log(err)
 //   }
 // })
+
+// const fs = require("fs")
+
+//  fs.writeFileSync("./file.text","enthaado")
+
+const fs = require("fs")
+
+fs.writeFile("./file.text"," ellarkkum sughamaanno", {flag:"a"},(err)=>{
+    if(err){
+        console.log(err)
+    }
+})

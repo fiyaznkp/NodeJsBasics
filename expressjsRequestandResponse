@@ -1,0 +1,24 @@
+// express js request and response objects are the parametres of callback function used in express apps
+
+// express request represents the http requests and has properties of request query string , parametres ,body, http header etc
+
+//req.app => it is used to hold the reference to the instance of the express app using the middleware
+
+// some of request object methods
+
+//1.req.accept(types)
+
+/* this method is used to check whether the specified content types are accepted , based on the request's accept http header field
+
+2.req.get(field)
+
+it returns the specified http request header field
+
+3.req.is(type)
+
+
+this method returns true if the incoming request's content type http header file matches with mime type specified by the type parameter
+
+
+
+*/
